@@ -2,8 +2,8 @@
   "name": "for_heroku",
   "private": true,
   "scripts": {
-    "start": "node server.js", // serves the application
-    "heroku-postbuild": "webpack -p" // runs after installation
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p"
   },
   "dependencies": {
     "@rails/actioncable": "^6.0.0-alpha",
